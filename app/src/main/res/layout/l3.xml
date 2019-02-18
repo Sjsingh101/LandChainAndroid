@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:background="#FFD71D">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView android:src="@drawable/images"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lat"
+        android:inputType="text"
+        android:hint="Latitude-1"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        />
+
+    <EditText
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longi"
+        android:inputType="text"
+        android:hint="Longitude-1"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        />
+
+
+
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lat2"
+            android:inputType="text"
+            android:hint="Latitude-2"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/longi2"
+            android:inputType="text"
+            android:hint="Longitude-2"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lat3"
+            android:inputType="text"
+            android:hint="Latitude-3"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/longi3"
+            android:inputType="text"
+            android:hint="Longitude-3"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lat4"
+            android:inputType="text"
+            android:hint="Latitude-4"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/longi4"
+            android:inputType="text"
+            android:hint="Longitude-4"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register Property"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="50dp"
+        android:padding="12dp"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

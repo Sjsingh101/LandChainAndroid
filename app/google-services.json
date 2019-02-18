@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "470304393650",
+    "firebase_url": "https://land-chain.firebaseio.com",
+    "project_id": "land-chain",
+    "storage_bucket": "land-chain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470304393650:android:b59503f1cf62d881",
+        "android_client_info": {
+          "package_name": "com.simranjeet.landchain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470304393650-2kck6q0hl0nvhgh9ioe6as98f1h8bafo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoR6XL5biL_fd2m1VcaqbofvKes0jNE-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
